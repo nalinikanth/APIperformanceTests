@@ -1,0 +1,47 @@
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking dummy.restapiexample.com (be patient).....done
+
+
+Server Software:        cloudflare
+Server Hostname:        dummy.restapiexample.com
+Server Port:            80
+
+Document Path:          /api/v1/create
+Document Length:        128 bytes
+
+Concurrency Level:      10
+Time taken for tests:   27.627 seconds
+Complete requests:      100
+Failed requests:        94
+   (Connect: 0, Receive: 0, Length: 94, Exceptions: 0)
+Non-2xx responses:      94
+Total transferred:      251412 bytes
+Total body sent:        19900
+HTML transferred:       148160 bytes
+Requests per second:    3.62 [#/sec] (mean)
+Time per request:       2762.743 [ms] (mean)
+Time per request:       276.274 [ms] (mean, across all concurrent requests)
+Transfer rate:          8.89 [Kbytes/sec] received
+                        0.70 kb/s sent
+                        9.59 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        3   12  10.2      9      85
+Processing:  1117 2169 1183.8   1858    7760
+Waiting:     1113 2160 1184.0   1843    7749
+Total:       1129 2180 1182.8   1867    7769
+
+Percentage of the requests served within a certain time (ms)
+  50%   1867
+  66%   2057
+  75%   2297
+  80%   2515
+  90%   3957
+  95%   4489
+  98%   7609
+  99%   7769
+ 100%   7769 (longest request)
