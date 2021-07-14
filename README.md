@@ -3,6 +3,7 @@
 Trying various tools to performance test APIs
 
 ## API Details:
+Below are the APIs used for this exercise
 [Booking App](https://restful-booker.herokuapp.com/apidoc/index.html#api-Booking-GetBooking)
 [DummyAPI](https://dummy.restapiexample.com/)
 
